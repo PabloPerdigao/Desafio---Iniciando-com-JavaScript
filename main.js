@@ -64,13 +64,45 @@ console.log(resultado)
 
 // 7. Crie um script que declare duas variáveis e exiba o resultado da multiplicação entre elas.
 
+const multplicacao =  function(numero1, numero2) {
+    return numero1 - numero2
+}
+
+let numero1 = 12;
+let numero2 = 7;
+
+let resultado = multplicacao(first, second);
+
+console.log(resultado)
 
 // 8. Crie um script que declare duas variáveis e exiba o resultado da divisão entre elas.
 
+const div = function(numero1, numero2) {
+    return numero1 / numero2
+}
 
+let numero1 = 24;
+let numero2 = 2;
+    
+let resultado = div(numero1, numero2);
+
+console.log(resultado)
+    
 // 9. Crie um script que declare uma variável e verifique se o seu valor é um número par. Se for, exiba a mensagem "É um número par", caso contrário, exiba a mensagem "Não é um número par".
+let number = 12;
 
+if (number % 2 === 0) {
+    console.log('É um número par.');
+} else {
+    console.log('Não é um número par.');
+}
 
 // 10. Crie um script que declare uma variável e verifique se o seu valor é um número ímpar. Se for, exiba a mensagem "É um número ímpar", caso contrário, exiba a mensagem "Não é um número ímpar". 
 
+let numero = 7;
 
+if(numero % 1=== 0) {
+    console.log('É um número ímpar.');
+} else {
+    console.log('Não é um número ímpar.')
+}
